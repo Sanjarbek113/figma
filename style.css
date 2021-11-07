@@ -30,12 +30,20 @@ body{
     padding: 7px;
     padding-bottom: 30px;
 }
+.header-title:hover{
+    color: darkblue;
+}
 
 .header-text{
     color: grey;
     margin-left: 10px;
      font-size: 20px; 
      padding-bottom: 30px;
+}
+
+.header-text:hover{
+    color: blueviolet;
+    word-spacing: 2px;
 }
 
 .header-btn{
@@ -46,6 +54,12 @@ body{
     border-radius: 4px;
     width: 120px;
     height: 40px;
+}
+
+.header-btn:hover{
+       background-color: yellow;
+       color: black;
+
 }
 
 .header-img{
@@ -67,6 +81,10 @@ body{
     height: 80px;
     border-radius: 10px;
 }
+
+.box:hover{
+    background-color: wheat;
+}
 .box-list{
     padding-left: 10px;
 }
@@ -75,10 +93,16 @@ body{
     font-size: 14px;
     padding: 2px ;
 }
+
+.box-subtext:hover{
+    color: black;
+}
 .box-text{
     font-size: 21px;
 }
-
+.box-text:hover{
+    color: darkgreen;
+}
 .box-icon{
     margin-bottom: 20px;
     margin-right: 10px;
